@@ -1,11 +1,31 @@
 {
   "name": "mock-db-connector",
   "version": "1.0.0",
-  "description": "mock db to avoid connecting real db for testing purpose",
+  "description": "A robust, in-memory mock database for Node.js unit testing that mimics MongoDB driver API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
+  "keywords": [
+    "mock",
+    "database",
+    "testing",
+    "unit-testing",
+    "in-memory",
+    "mongodb",
+    "fake-database",
+    "test-utilities"
+  ],
   "author": "12fahed",
-  "license": "ISC"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/12fahed/mock-db-connector"
+  }
 }
