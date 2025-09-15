@@ -1,0 +1,11 @@
+{
+  "name": "mock-db-connector",
+  "version": "1.0.0",
+  "description": "mock db to avoid connecting real db for testing purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "12fahed",
+  "license": "ISC"
+}
